@@ -1,0 +1,11 @@
+# Core Web Framework
+fastapi==0.111.0
+
+# ASGI Server (includes standard performance extras like uvloop and httptools)
+uvicorn[standard]==0.30.1
+
+# Data Validation (used for the Base64 payload)
+pydantic==2.7.4
+
+# Production Process Manager (for spinning up multiple worker nodes)
+gunicorn==22.0.0
